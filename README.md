@@ -4,12 +4,12 @@
 If you want to tweet or update your profile, edit CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN and ACCESS_TOKEN_SECRET in config.py.
 Just print progress bar, you don't need edit config.py.
 ```
-thesis_process.py [-h] {tweet,print,update_profile} ...
-thesis_process.py: error: invalid choice: 'help' (choose from 'tweet', 'print', 'update_profile')
+thesis_progress.py [-h] {tweet,print,update_profile} ...
+thesis_progress.py: error: invalid choice: 'help' (choose from 'tweet', 'print', 'update_profile')
 ```
 ### tweet command usage
 ```
-thesis_process.py tweet [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
+thesis_progress.py tweet [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -20,7 +20,7 @@ optional arguments:
 ```
 ### print command usage
 ```
-thesis_prgress.py print [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
+thesis_progress.py print [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -33,7 +33,7 @@ optional arguments:
 ```
 ### update_profile command usage
 ```
-thesis_process.py update_profile [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
+thesis_progress.py update_profile [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -45,7 +45,7 @@ optional arguments:
 
 # input example
 ```
-./thesis_process.py print -f /Users/jau5/Documents/workspace/修論/main.pdf -c "修論進捗 %BAR%" -g 50
+./thesis_progress.py print -f /Users/jau5/Documents/workspace/修論/main.pdf -c "修論進捗 %BAR%" -g 50
 ```
 # output example
 ```
