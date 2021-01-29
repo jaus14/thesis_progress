@@ -3,9 +3,11 @@
 A script that makes progress bar from the number of PDFs.
 
 ## Requirement
-requests requests-oauthlib
+- PyPDF2
+- requests
+- requests-oauthlib
 ```
-pip3 install requests requests-oauthlib
+pip3 install pypdf2 requests requests-oauthlib
 ```
 ## USAGE
 If you want to tweet or update your profile, edit CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN and ACCESS_TOKEN_SECRET in config.py.
