@@ -1,6 +1,8 @@
 # Thesis Progress
 
 ## USAGE
+If you want to tweet or update your profile, edit CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN and ACCESS_TOKEN_SECRET in config.py.
+Just print progress bar, you don't need edit config.py.
 ```
 thesis_process.py [-h] {tweet,print,update_profile} ...
 thesis_process.py: error: invalid choice: 'help' (choose from 'tweet', 'print', 'update_profile')
