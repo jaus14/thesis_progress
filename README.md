@@ -14,7 +14,6 @@ If you want to tweet or update your profile, edit CONSUMER_KEY, CONSUMER_SECRET,
 Just print progress bar, you don't need edit config.py.
 ```
 thesis_progress.py [-h] {tweet,print,update_profile} ...
-thesis_progress.py: error: invalid choice: 'help' (choose from 'tweet', 'print', 'update_profile')
 ```
 ### tweet command usage
 ```
@@ -34,7 +33,7 @@ thesis_progress.py print [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
 optional arguments:
   -h, --help            show this help message and exit
   -c CUSTOMIZE, --customize CUSTOMIZE
-                        customize text.put `%BAR%` where you want to put the progress bar.
+                        customize text. put `%BAR%` where you want to put the progress bar.
   -f FILE, --file FILE  file name
   -g GOAL, --goal GOAL  goal page
   
@@ -47,7 +46,7 @@ thesis_progress.py update_profile [-h] [-c CUSTOMIZE] [-f FILE] [-g GOAL]
 optional arguments:
   -h, --help            show this help message and exit
   -c CUSTOMIZE, --customize CUSTOMIZE
-                        customize profile description. `%BAR%` where you want to put the progress bar.
+                        customize profile description. put `%BAR%` where you want to put the progress bar.
   -f FILE, --file FILE  file name
   -g GOAL, --goal GOAL  goal page
 ```
